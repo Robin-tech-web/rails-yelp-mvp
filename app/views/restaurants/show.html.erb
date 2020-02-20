@@ -1,3 +1,4 @@
+<div class="text-center">
 <h2><%= @restaurant.name %></h2>
   <h4>Category:</h4>
 <p><%= @restaurant.category %></p>
@@ -13,3 +14,4 @@
   <p><%= review.rating %></p>
 <% end %>
 <p><%= link_to "Add a Review", new_restaurant_review_path(@restaurant) %></p>
+</div>

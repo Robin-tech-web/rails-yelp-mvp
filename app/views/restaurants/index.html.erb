@@ -1,5 +1,7 @@
+<div class="text-center">
 <h2>List of restaurants</h2>
 <% @restaurants.each do |restaurant| %>
   <h3><%= link_to restaurant.name, restaurant_path(restaurant.id) %></h3>
 <% end %>
 <p><%= link_to "Add a Restaurant", new_restaurant_path %></p>
+</div>
